@@ -7,7 +7,7 @@ body {
 
 .nav {
     background-color: #333;
-    color: #ff7171;
+    color: #4fa0fc;
     padding: 10px 0;
     height: 50px;
     width: 100%;
@@ -23,12 +23,12 @@ body {
 .card1 {
     height: 300px;
     width: 350px;
-    background-color: rgb(255, 154, 154);
+    background-color: #66ffff;
     margin-left: 50px;
     margin-top: 80px;
-    border: solid 4px#ffffff;
+    border: solid 4px#00e6e6;
     border-radius: 10px;
-    box-shadow: 5px 5px 10px 2px #424242;
+    box-shadow: 10px 5px 5px 3px #424242;
     text-align: center;
     font-size: 10px;
     display: inline-block;
@@ -36,12 +36,13 @@ body {
 }
 
 .card1:hover {
-    height: 550px;
-    transition: 3s ;
-    background-color: khaki;
+    height: 600px;
+    transition: 3s;
+    background-color: #00ffaa;
+    border-radius: solid 4px#1aff66;
 }
 
-.info{
+.info {
     text-align: left;
 }
 
@@ -51,7 +52,7 @@ body {
     padding-top: 10px;
     margin: 30px;
     transition: 4s;
-    background-color: khaki;
+    background-color: #00ffaa;
 }
 
 
@@ -68,12 +69,12 @@ img {
 .card2 {
     height: 300px;
     width: 350px;
-    background-color: rgb(255, 154, 154);
+    background-color: #66ffff;
     margin-left: 50px;
     margin-top: 80px;
-    border: solid 4px#ffffff;
+    border: solid 4px#00e6e6;
     border-radius: 10px;
-    box-shadow: 5px 5px 10px 2px #424242;
+    box-shadow: 10px 5px 5px 3px #424242;
     text-align: center;
     font-size: 10px;
     display: inline-block;
@@ -83,18 +84,19 @@ img {
 .card2:hover:hover {
     height: 600px;
     transition: 3s;
-    background-color: khaki;
+    background-color: #00ffaa;
+    border-radius: solid 4px#1aff66;
 }
 
 .card3 {
     height: 300px;
     width: 350px;
-    background-color: rgb(255, 154, 154);
+    background-color: #66ffff;
     margin-left: 50px;
     margin-top: 80px;
-    border: solid 4px#ffffff;
+    border: solid 4px#00e6e6;
     border-radius: 10px;
-    box-shadow: 5px 5px 10px 2px #424242;
+    box-shadow: 10px 5px 5px 3px #424242;
     text-align: center;
     font-size: 10px;
     display: inline-block;
@@ -103,5 +105,6 @@ img {
 .card3:hover {
     height: 600px;
     transition: 3s;
-    background-color: khaki;
+    background-color: #00ffaa;
+    border-radius: solid 4px#1aff66;
 }
