@@ -1,0 +1,20 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f0f0;
+}
+
+.nav {
+    background-color: #333;
+    color: #ff7171;
+    padding: 10px 0;
+    height: 50px;
+    width: 100%;
+}
+
+.heading {
+    text-align: center;
+    padding-top: 5px;
+    margin-top: 5px;
+}
