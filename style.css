@@ -21,7 +21,7 @@ body {
 
 
 .card1 {
-    height: 500px;
+    height: 300px;
     width: 350px;
     background-color: rgb(255, 154, 154);
     margin-left: 50px;
@@ -30,10 +30,28 @@ body {
     border-radius: 10px;
     box-shadow: 5px 5px 10px 2px #424242;
     text-align: center;
-    font-weight: 800;
     font-size: 10px;
     display: inline-block;
 
+}
+
+.card1:hover {
+    height: 550px;
+    transition: 3s ;
+    background-color: khaki;
+}
+
+.info{
+    text-align: left;
+}
+
+.info:hover {
+    text-align: left;
+    font-size: 20px;
+    padding-top: 10px;
+    margin: 30px;
+    transition: 4s;
+    background-color: khaki;
 }
 
 
@@ -48,7 +66,7 @@ img {
 }
 
 .card2 {
-    height: 500px;
+    height: 300px;
     width: 350px;
     background-color: rgb(255, 154, 154);
     margin-left: 50px;
@@ -57,16 +75,19 @@ img {
     border-radius: 10px;
     box-shadow: 5px 5px 10px 2px #424242;
     text-align: center;
-    font-weight: 800;
     font-size: 10px;
     display: inline-block;
 
 }
 
-
+.card2:hover:hover {
+    height: 600px;
+    transition: 3s;
+    background-color: khaki;
+}
 
 .card3 {
-    height: 500px;
+    height: 300px;
     width: 350px;
     background-color: rgb(255, 154, 154);
     margin-left: 50px;
@@ -75,8 +96,12 @@ img {
     border-radius: 10px;
     box-shadow: 5px 5px 10px 2px #424242;
     text-align: center;
-    font-weight: 800;
     font-size: 10px;
     display: inline-block;
 }
 
+.card3:hover {
+    height: 600px;
+    transition: 3s;
+    background-color: khaki;
+}
